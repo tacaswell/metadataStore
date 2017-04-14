@@ -643,7 +643,7 @@ insert_event_descriptor = insert_descriptor
 
 
 def insert_event(event_col, descriptor, time, seq_num, data, timestamps, uid,
-                 validate):
+                 validate, filled=None):
     """Create an event in metadatastore database backend
 
     .. warning
